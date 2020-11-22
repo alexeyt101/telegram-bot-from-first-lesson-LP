@@ -19,7 +19,7 @@ def green_user(update, context):
     update.message.reply_text('Привет, пользователь! Ты вызвал команду /start')
 
 def talk_to_me(update, context):
-    user_text = update.message.text
+    user_text = update.message.text + ', джан'
     print(user_text)
     update.message.reply_text(user_text)
 
